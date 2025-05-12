@@ -1,0 +1,702 @@
+[
+  {
+    "drawDate": "2025-05-10",
+    "winningNumber": "245",
+    "fireball": "3",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-05-10",
+    "winningNumber": "480",
+    "fireball": "8",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-05-09",
+    "winningNumber": "325",
+    "fireball": "4",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-05-09",
+    "winningNumber": "515",
+    "fireball": "0",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-05-08",
+    "winningNumber": "946",
+    "fireball": "4",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-05-08",
+    "winningNumber": "515",
+    "fireball": "7",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-05-07",
+    "winningNumber": "321",
+    "fireball": "0",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-05-07",
+    "winningNumber": "902",
+    "fireball": "3",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-05-06",
+    "winningNumber": "790",
+    "fireball": "9",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-05-06",
+    "winningNumber": "938",
+    "fireball": "6",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-05-05",
+    "winningNumber": "458",
+    "fireball": "9",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-05-05",
+    "winningNumber": "934",
+    "fireball": "3",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-05-04",
+    "winningNumber": "147",
+    "fireball": "8",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-05-04",
+    "winningNumber": "830",
+    "fireball": "2",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-05-03",
+    "winningNumber": "225",
+    "fireball": "9",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-05-03",
+    "winningNumber": "509",
+    "fireball": "9",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-05-02",
+    "winningNumber": "150",
+    "fireball": "6",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-05-02",
+    "winningNumber": "023",
+    "fireball": "3",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-05-01",
+    "winningNumber": "385",
+    "fireball": "7",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-05-01",
+    "winningNumber": "290",
+    "fireball": "0",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-04-30",
+    "winningNumber": "699",
+    "fireball": "7",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-04-30",
+    "winningNumber": "364",
+    "fireball": "4",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-04-29",
+    "winningNumber": "612",
+    "fireball": "1",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-04-29",
+    "winningNumber": "673",
+    "fireball": "8",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-04-28",
+    "winningNumber": "672",
+    "fireball": "7",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-04-28",
+    "winningNumber": "235",
+    "fireball": "6",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-04-27",
+    "winningNumber": "819",
+    "fireball": "5",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-04-27",
+    "winningNumber": "367",
+    "fireball": "1",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-04-26",
+    "winningNumber": "935",
+    "fireball": "3",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-04-26",
+    "winningNumber": "621",
+    "fireball": "6",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-04-25",
+    "winningNumber": "991",
+    "fireball": "9",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-04-25",
+    "winningNumber": "760",
+    "fireball": "6",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-04-24",
+    "winningNumber": "603",
+    "fireball": "9",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-04-24",
+    "winningNumber": "824",
+    "fireball": "7",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-04-23",
+    "winningNumber": "796",
+    "fireball": "9",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-04-23",
+    "winningNumber": "330",
+    "fireball": "5",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-04-22",
+    "winningNumber": "234",
+    "fireball": "8",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-04-22",
+    "winningNumber": "380",
+    "fireball": "9",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-04-21",
+    "winningNumber": "926",
+    "fireball": "5",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-04-21",
+    "winningNumber": "192",
+    "fireball": "2",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-04-20",
+    "winningNumber": "025",
+    "fireball": "4",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-04-20",
+    "winningNumber": "526",
+    "fireball": "7",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-04-19",
+    "winningNumber": "977",
+    "fireball": "3",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-04-19",
+    "winningNumber": "611",
+    "fireball": "6",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-04-18",
+    "winningNumber": "749",
+    "fireball": "2",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-04-18",
+    "winningNumber": "802",
+    "fireball": "7",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-04-17",
+    "winningNumber": "758",
+    "fireball": "8",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-04-17",
+    "winningNumber": "434",
+    "fireball": "6",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-04-16",
+    "winningNumber": "572",
+    "fireball": "2",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-04-16",
+    "winningNumber": "206",
+    "fireball": "5",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-04-15",
+    "winningNumber": "039",
+    "fireball": "9",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-04-15",
+    "winningNumber": "245",
+    "fireball": "3",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-04-14",
+    "winningNumber": "594",
+    "fireball": "6",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-04-14",
+    "winningNumber": "429",
+    "fireball": "7",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-04-13",
+    "winningNumber": "551",
+    "fireball": "9",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-04-13",
+    "winningNumber": "377",
+    "fireball": "9",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-04-12",
+    "winningNumber": "822",
+    "fireball": "5",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-04-12",
+    "winningNumber": "825",
+    "fireball": "5",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-04-11",
+    "winningNumber": "948",
+    "fireball": "9",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-04-11",
+    "winningNumber": "862",
+    "fireball": "6",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-04-10",
+    "winningNumber": "791",
+    "fireball": "9",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-04-10",
+    "winningNumber": "246",
+    "fireball": "9",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-04-09",
+    "winningNumber": "639",
+    "fireball": "9",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-04-09",
+    "winningNumber": "886",
+    "fireball": "6",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-04-08",
+    "winningNumber": "165",
+    "fireball": "8",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-04-08",
+    "winningNumber": "395",
+    "fireball": "1",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-04-07",
+    "winningNumber": "820",
+    "fireball": "5",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-04-07",
+    "winningNumber": "736",
+    "fireball": "2",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-04-06",
+    "winningNumber": "436",
+    "fireball": "7",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-04-06",
+    "winningNumber": "557",
+    "fireball": "4",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-04-05",
+    "winningNumber": "740",
+    "fireball": "7",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-04-05",
+    "winningNumber": "959",
+    "fireball": "6",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-04-04",
+    "winningNumber": "458",
+    "fireball": "4",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-04-04",
+    "winningNumber": "507",
+    "fireball": "7",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-04-03",
+    "winningNumber": "467",
+    "fireball": "5",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-04-03",
+    "winningNumber": "227",
+    "fireball": "4",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-04-02",
+    "winningNumber": "808",
+    "fireball": "5",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-04-02",
+    "winningNumber": "200",
+    "fireball": "3",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-04-01",
+    "winningNumber": "522",
+    "fireball": "6",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-04-01",
+    "winningNumber": "872",
+    "fireball": "3",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-03-31",
+    "winningNumber": "637",
+    "fireball": "0",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-03-31",
+    "winningNumber": "847",
+    "fireball": "8",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-03-30",
+    "winningNumber": "849",
+    "fireball": "5",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-03-30",
+    "winningNumber": "452",
+    "fireball": "5",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-03-29",
+    "winningNumber": "411",
+    "fireball": "0",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-03-29",
+    "winningNumber": "260",
+    "fireball": "3",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-03-28",
+    "winningNumber": "112",
+    "fireball": "8",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-03-28",
+    "winningNumber": "569",
+    "fireball": "3",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-03-27",
+    "winningNumber": "011",
+    "fireball": "1",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-03-27",
+    "winningNumber": "150",
+    "fireball": "3",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-03-26",
+    "winningNumber": "252",
+    "fireball": "2",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-03-26",
+    "winningNumber": "884",
+    "fireball": "1",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-03-25",
+    "winningNumber": "457",
+    "fireball": "2",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-03-25",
+    "winningNumber": "040",
+    "fireball": "3",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-03-24",
+    "winningNumber": "245",
+    "fireball": "8",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-03-24",
+    "winningNumber": "938",
+    "fireball": "2",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-03-23",
+    "winningNumber": "844",
+    "fireball": "8",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-03-23",
+    "winningNumber": "075",
+    "fireball": "5",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2025-03-22",
+    "winningNumber": "270",
+    "fireball": "7",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2025-03-22",
+    "winningNumber": "616",
+    "fireball": "3",
+    "midDay": false,
+    "evening": true
+  }
+]

@@ -13,6 +13,7 @@ const winningNumberPick3Schema = mongoose.Schema({
   _id: mongoose.Schema.Types.ObjectId,
   drawDate: { type: String, required: true },
   winningNumber: { type: String, required: true },
+  fireball: { type: String, required: true },
   midDay: { type: Boolean },
   evening: { type: Boolean }
 });

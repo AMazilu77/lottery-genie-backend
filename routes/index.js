@@ -1,7 +1,7 @@
 const express = require('express')
 // const LOCALDB = require('process.env.LOCALDB')
 const router = express.Router();
-const { WinningPick2 } = require('../models/winningNumbersModel')
+const { WinningPick2, WinningPick3 } = require('../models/winningNumbersModel')
 const assert = require('assert');
 const url = "mongodb://localhost:3000/api/winning";
 const MongoClient = require('mongodb').MongoClient;
@@ -53,6 +53,48 @@ const mongoose = require('mongoose');
         });
       });
     })
+
+    // route to POST winning pick 2 numbers!
+    router.post('/FLPick3Winners', (req, res, next) => {
+      const winningNumbers = new WinningPick3({
+        _id: new mongoose.Types.ObjectId(),
+        drawDate: req.body.drawDate,
+        winningNumber: req.body.winningNumber,
+        fireball: req.body.fireball,
+        midDay: req.body.midDay,
+        evening: req.body.evening
+      });
+      winningNumbers
+      .save()
+      // chain promise with then
+      .then(result => {
+        console.log(result);
+      })
+        .catch(err => console.log(err));
+
+        res.status(201).json({
+          message: "handling post",
+          createdWinningNumber: winningNumbers
+        });
+      
+    });
+  
+
+    // GET route to fetch all pick 2 winning numbers
+    router.get('/FLPick3Winners', (req, res, next) => {
+      WinningPick3.find()
+      .exec()
+      .then(documents => {
+       console.log(documents);
+       res.status(200).json(documents);
+      })
+      .catch(err => {
+        console.log(err);
+        res.status(500).json({
+          error: err
+        });
+      });
+    })    
 
     
 // })
