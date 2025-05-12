@@ -1,10 +1,10 @@
 const express = require("express");
-const authChecker = require('../backend/middleware/check-auth');
-const extractFile = require('../backend/middleware/file');
+const authChecker = require('../middleware/check-auth');
+const extractFile = require('../middleware/file');
 
 
 const router = express.Router();
-const postController = require('../backend/controllers/posts')
+const postController = require('../controllers/posts')
 
 
 
