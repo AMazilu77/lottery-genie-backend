@@ -96,7 +96,18 @@ const mongoose = require('mongoose');
       });
     })    
 
-    
+   
+    // alias route for FLPick3
+router.get('/FLPick3', (req, res, next) => {
+  WinningPick3.find()
+    .exec()
+    .then(documents => {
+      res.status(200).json(documents);
+    })
+    .catch(err => {
+      res.status(500).json({ error: err });
+    });
+});
 // })
 
 // router.get("/megaWin", (req, res, next) => {
