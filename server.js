@@ -39,10 +39,10 @@ app.use("/api/posts", postsRoutes);
 app.use("/api/user", userRoutes);
 app.use("/api/winning", winningRoute);
 
-app.use(express.static(__dirname + '/dist/The-Lottery-Djinni'));
-app.get('/*', (req, res) => {
-  res.sendFile(path.join(__dirname + '/dist/The-Lottery-Djinni/index.html'));
-});
+// app.use(express.static(__dirname + '/dist/The-Lottery-Djinni'));
+// app.get('/*', (req, res) => {
+//   res.sendFile(path.join(__dirname + '/dist/The-Lottery-Djinni/index.html'));
+// });
 
 const normalizePort = val => {
   const port = parseInt(val, 10);
