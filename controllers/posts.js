@@ -1,4 +1,4 @@
-const LuckyNumberPostSchema = require("../../models/Luckpost");
+const LuckyNumberPostSchema = require("../models/Luckpost");
 
 
 exports.userPost = 
