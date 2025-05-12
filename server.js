@@ -1,6 +1,6 @@
 
 // Import your Express app from backend/app.js
-const app = require("./backend/app");
+const app = require("./app");
 // Import debug utility (optional, used for structured logging)
 const debug = require("debug")("node-angular");
 // Import built-in Node HTTP module
