@@ -1,7 +1,7 @@
 const express = require('express')
 // const LOCALDB = require('process.env.LOCALDB')
 const router = express.Router();
-const { WinningPick2, WinningPick3 } = require('../models/winningNumbersModel')
+const { WinningPick2, WinningPick3, WinningMegaMillions } = require('../models/winningNumbersModel')
 const assert = require('assert');
 const url = "mongodb://localhost:3000/api/winning";
 const MongoClient = require('mongodb').MongoClient;
@@ -108,7 +108,19 @@ router.get('/FLPick3', (req, res, next) => {
       res.status(500).json({ error: err });
     });
 });
-// })
+
+
+
+// This handles GET /api/winning/megamillions
+router.get('/megamillions', async (req, res) => {
+  try {
+    const results = await WinningMegaMillions.find().sort({ drawDate: -1 });
+    res.json(results);
+  } catch (err) {
+    console.error('❌ Error fetching Mega Millions:', err);
+    res.status(500).send('Server error');
+  }
+});
 
 // router.get("/megaWin", (req, res, next) => {
 //   WinModel.find()
