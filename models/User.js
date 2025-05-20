@@ -2,26 +2,29 @@ const mongoose = require('mongoose');
 const uniqueValidator = require("mongoose-unique-validator");
 // const Schema = mongoose.Schema;
 // const userSchema = new Schema(
-  const userSchema = mongoose.Schema({
-  
+  const userSchema = new mongoose.Schema({
 
-    // firstName: { type: String, required: true },
-    // lastName: { type: String, required: true },
-    // userName: { type: String, unique: true, required: true },
-    // use of unique here is for internal mongo optimization, not to act as a validator
     email: { type: String, unique: true, required: true},
     password: { type: String, required: true },
-    // profileImg: { type: String, default: '' },
-    // headerImg: { type: String, default: '' },
-    // bio: { type: String, default: '' },
-    // city: { type: String, default: '' },
-    // facebookID: String,
-    // googleID: String,
-    // FavoriteGame: { type: String },
-    // TotalWinnings: { type: Number },
-    // TotalLosses: { type: Number },
-    // AverageWinnings: { type: Number },
-     luckyNumbers: [],
+    luckyNumbers: { type: [Number], default: [] },
+  },
+
+  // keep track of when the account was created and when updated
+  {
+    timestamps: {
+      createdAt: "created_at",
+      updatedAt: "updated_at"
+    }
+  },
+);
+
+userSchema.plugin(uniqueValidator);
+
+const User = mongoose.model('User', userSchema)
+
+module.exports = User
+
+
 
 
     // experience points used for daily app usage
@@ -44,19 +47,20 @@ const uniqueValidator = require("mongoose-unique-validator");
     //   ]
     // },
     // and so on, for each game... presumably.
-  },
 
-  // keep track of when the account was created and when updated
-  {
-    timestamps: {
-      createdAt: "created_at",
-      updatedAt: "updated_at"
-    }
-  },
-);
+        // profileImg: { type: String, default: '' },
+    // headerImg: { type: String, default: '' },
+    // bio: { type: String, default: '' },
+    // city: { type: String, default: '' },
+    // facebookID: String,
+    // googleID: String,
+    // FavoriteGame: { type: String },
+    // TotalWinnings: { type: Number },
+    // TotalLosses: { type: Number },
+    // AverageWinnings: { type: Number },
 
-userSchema.plugin(uniqueValidator);
 
-const User = mongoose.model('User', userSchema)
-
-module.exports = User
+    // firstName: { type: String, required: true },
+    // lastName: { type: String, required: true },
+    // userName: { type: String, unique: true, required: true },
+    // use of unique here is for internal mongo optimization, not to act as a validator
