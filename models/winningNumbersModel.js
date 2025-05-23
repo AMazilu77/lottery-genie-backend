@@ -18,24 +18,39 @@ const winningNumberPick3Schema = mongoose.Schema({
   evening: { type: Boolean }
 });
 
-//
 
 ///mega millions schema
 const megaMillionsSchema = new mongoose.Schema({
   drawDate: { type: Date, required: true },
   numbers: [Number],
   megaBall: Number,
-  implementationYear: Number // Optional: in case you want to track rule changes
+  implementationYear: Number
 });
 
-const WinningMegaMillions = mongoose.model('WinningMegaMillions', megaMillionsSchema);
+// winning powerball schema
+const WinningPowerballSchema = new mongoose.Schema({
+  drawDate: { type: Date, required: true },
+  winningNumber1: Number,
+  winningNumber2: Number,
+  winningNumber3: Number,
+  winningNumber4: Number,
+  winningNumber5: Number,
+  powerBall: Number,
+  multiplier: { type: Number, default: null },
+  gameVersion: { type: String, required: true }
+});
 
-// ✅ export both models properly
+
+
 const WinningPick2 = mongoose.model('WinningPick2', winningNumberPick2Schema);
 const WinningPick3 = mongoose.model('WinningPick3', winningNumberPick3Schema);
+
+const WinningMegaMillions = mongoose.model('WinningMegaMillions', megaMillionsSchema);
+const WinningPowerball = mongoose.model('WinningPowerball', WinningPowerballSchema);
 
 module.exports = {
   WinningPick2,
   WinningPick3,
-  WinningMegaMillions
+  WinningMegaMillions,
+  WinningPowerball
 };

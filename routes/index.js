@@ -1,7 +1,7 @@
 const express = require('express')
 // const LOCALDB = require('process.env.LOCALDB')
 const router = express.Router();
-const { WinningPick2, WinningPick3, WinningMegaMillions } = require('../models/winningNumbersModel')
+const { WinningPick2, WinningPick3, WinningMegaMillions, WinningPowerball } = require('../models/winningNumbersModel')
 const assert = require('assert');
 const url = "mongodb://localhost:3000/api/winning";
 const MongoClient = require('mongodb').MongoClient;
@@ -119,6 +119,26 @@ router.get('/megamillions', async (req, res) => {
   } catch (err) {
     console.error('❌ Error fetching Mega Millions:', err);
     res.status(500).send('Server error');
+  }
+});
+
+// GET all Powerball results
+router.get('/powerball', async (req, res) => {
+  try {
+    const results = await WinningPowerball.find().sort({ drawDate: -1 });
+    res.json(results);
+  } catch (err) {
+    res.status(500).json({ error: 'Failed to fetch Powerball results.' });
+  }
+});
+
+// GET latest Powerball result
+router.get('/powerball/latest', async (req, res) => {
+  try {
+    const result = await WinningPowerball.findOne().sort({ drawDate: -1 });
+    res.json(result);
+  } catch (err) {
+    res.status(500).json({ error: 'Failed to fetch latest result.' });
   }
 });
 

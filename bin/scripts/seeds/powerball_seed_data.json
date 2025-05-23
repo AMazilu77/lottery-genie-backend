@@ -1,0 +1,35 @@
+[
+  {
+    "drawDate": "2025-05-21",
+    "winningNumber1": 9,
+    "winningNumber2": 29,
+    "winningNumber3": 31,
+    "winningNumber4": 34,
+    "winningNumber5": 43,
+    "powerBall": 2,
+    "multiplier": 2,
+    "gameVersion": "2022+"
+  },
+  {
+    "drawDate": "2025-05-21",
+    "winningNumber1": 4,
+    "winningNumber2": 9,
+    "winningNumber3": 21,
+    "winningNumber4": 37,
+    "winningNumber5": 56,
+    "powerBall": 2,
+    "multiplier": null,
+    "gameVersion": "2022+"
+  },
+  {
+    "drawDate": "2025-05-19",
+    "winningNumber1": 13,
+    "winningNumber2": 14,
+    "winningNumber3": 37,
+    "winningNumber4": 50,
+    "winningNumber5": 60,
+    "powerBall": 11,
+    "multiplier": 2,
+    "gameVersion": "2022+"
+  }
+]
