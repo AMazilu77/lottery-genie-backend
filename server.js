@@ -5,6 +5,7 @@ if (!process.env.JWT_KEY) {
   process.exit(1);
 }
 
+console.log("🌍 Full env:", process.env);
 
 const path = require('path');
 const express = require('express');
