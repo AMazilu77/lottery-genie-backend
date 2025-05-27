@@ -1,5 +1,10 @@
 require('dotenv').config();
-console.log("Loaded JWT_KEY:", process.env.JWT_KEY);
+console.log("✅ JWT_KEY in startup:", process.env.JWT_KEY || 'undefined');
+if (!process.env.JWT_KEY) {
+  console.error("🚨 JWT_KEY missing from env — aborting.");
+  process.exit(1);
+}
+
 
 const path = require('path');
 const express = require('express');
