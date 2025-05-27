@@ -1,5 +1,5 @@
-require('dotenv').config({ path: '.env' });
-console.log("JWT_KEY in startup:", process.env.JWT_KEY);
+require('dotenv').config();
+console.log("Loaded JWT_KEY:", process.env.JWT_KEY);
 
 const path = require('path');
 const express = require('express');
@@ -14,6 +14,7 @@ const userRoutes = require('./routes/user');
 const winningRoute = require('./routes/index');
 
 const app = express();
+console.log("ENV VARS:", Object.keys(process.env));
 
 mongoose.connect(process.env.MONGO_URI, {
   useUnifiedTopology: true,
