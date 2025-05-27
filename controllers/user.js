@@ -4,7 +4,7 @@ const jwt = require("jsonwebtoken")
 
 
 exports.createUser = async (req, res, next) => {
-  console.log("🧪 Signup attempt with:", req.body);
+  console.log("Signup attempt with:", req.body);
 
   try {
     const hash = await bcrypt.hash(req.body.password, 10);
@@ -32,36 +32,6 @@ exports.createUser = async (req, res, next) => {
 };
 
 
-
-
-
-//* user registration logic control */
-// exports.createUser = (req, res, next) => {
-//     bcrypt.hash(req.body.password, 10).then(hash => {
-//         const user = new User({
-//             email: req.body.email,
-//             password: hash
-//             // use bcrypt npm package to encrypt pw data securely
-//             // password: req.body.password  ( <--do not ever store passwords like this!)
-//         });
-//         // save user to DB
-//         user.save()
-//         .then(result => {
-//             res.status(201).json({
-//                 message: 'User created',
-//                 result: result
-//             });
-//         })
-//         .catch(err => {
-//             res.status(500).json({
-//                     message: ' Invalid Authentication Credentials.'
-                
-//             });
-//         });
-//     });
-// }
-
-
 exports.loginUser = (req, res, next) => {
   console.log("Login attempt with:", req.body);
 
@@ -69,20 +39,17 @@ exports.loginUser = (req, res, next) => {
 
   User.findOne({ email: req.body.email })
     .then(user => {
-      if (!user) {
-        console.log("No user found for email:", req.body.email);
-        // Throwing an error forces the chain into `.catch()`
-        throw new Error("USER_NOT_FOUND");
-      }
+      if (!user) throw new Error("USER_NOT_FOUND");
 
       fetchedUser = user;
-      console.log("User found:", fetchedUser.email);
       return bcrypt.compare(req.body.password, user.password);
     })
     .then(result => {
-      if (!result) {
-        console.log("Password mismatch for user:", fetchedUser.email);
-        throw new Error("PASSWORD_MISMATCH");
+      if (!result) throw new Error("PASSWORD_MISMATCH");
+
+      if (!process.env.JWT_KEY) {
+        console.error("🚨 JWT_KEY is undefined in production!");
+        throw new Error("JWT_MISSING");
       }
 
       const token = jwt.sign(
@@ -94,7 +61,7 @@ exports.loginUser = (req, res, next) => {
         { expiresIn: "1h" }
       );
 
-      console.log("Token created for", fetchedUser.email);
+      console.log("✅ Token created:", token);
 
       return res.status(200).json({
         token: token,
@@ -103,63 +70,17 @@ exports.loginUser = (req, res, next) => {
       });
     })
     .catch(err => {
-      console.error("Login error caught:", err.message);
-      if (!res.headersSent) {
-        const msg =
-          err.message === "USER_NOT_FOUND"
-            ? "Authentication failed: Djinn does not recognize you"
-            : err.message === "PASSWORD_MISMATCH"
-            ? "Auth Failed: Incorrect password"
-            : "Internal server error during login.";
+      console.error("Login error:", err.message);
 
+      let msg = "Internal server error during login.";
+      if (err.message === "USER_NOT_FOUND") msg = "User not found.";
+      else if (err.message === "PASSWORD_MISMATCH") msg = "Password mismatch.";
+      else if (err.message === "JWT_MISSING") msg = "JWT_KEY not defined in env vars.";
+
+      if (!res.headersSent) {
         res.status(401).json({ message: msg });
       }
     });
 };
 
 
-//* user login control */
-// exports.loginUser = (req, res, next) => {
-//     let fetchedUser;
-//     User.findOne({ email: req.body.email }).then(user => {
-//         if (!user) {
-//             return res.status(401).json({
-//                 message: 'Authentication failed, The Djinn Does not Recognize you'
-//             });
-//         }
-//         fetchedUser = user;
-//         return bcrypt.compare(req.body.password, user.password)
-//     })
-//     .then(result => {
-//         if (!result) {
-//             return res.status(401).json({
-//                 message: 'Auth Failed'
-//             });
-//         }
-
-//         // sign method creates a new token based on input data of choice
-//         const token = jwt.sign({
-//             email: fetchedUser.email,
-//             userId: fetchedUser._id
- 
-//             // PW used to create hash, stored on server and used to validate hash, this is what makes jWTs uncrackable
-//         },
-//          process.env.JWT_KEY,
-//           { expiresIn: "1h"} 
-//         );
-//         res.status(200).json({
-//             token: token,
-//             expiresIn: 3600,
-//             // user Id passed to front end on login
-//             userId: fetchedUser._id
-            
-//         })
-//         console.log("JWT_KEY in loginUser:", process.env.JWT_KEY);
-
-//     })
-//     .catch(err => {
-//         return res.status(401).json({
-//             message: "Invalid authentication credentials."
-//         });
-//     });
-// }
