@@ -51,7 +51,7 @@ exports.loginUser = (req, res, next) => {
         console.error("🚨 JWT_KEY is undefined in production!");
         throw new Error("JWT_MISSING");
       }
-
+      
       const token = jwt.sign(
         {
           email: fetchedUser.email,
@@ -60,6 +60,7 @@ exports.loginUser = (req, res, next) => {
         process.env.JWT_KEY,
         { expiresIn: "1h" }
       );
+      console.log("JWT_KEY is:", process.env.JWT_KEY);
 
       console.log("✅ Token created:", token);
 

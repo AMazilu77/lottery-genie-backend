@@ -1,4 +1,6 @@
 require('dotenv').config({ path: '.env' });
+console.log("JWT_KEY in startup:", process.env.JWT_KEY);
+
 const path = require('path');
 const express = require('express');
 const bodyParser = require('body-parser');
