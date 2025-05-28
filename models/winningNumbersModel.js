@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 
 const winningNumberPick2Schema = mongoose.Schema({
-  _id: mongoose.Schema.Types.ObjectId,
   drawDate: { type: String, required: true },
   winningNumber: { type: String, required: true },
   fireball: { type: String, required: true },
@@ -10,13 +9,36 @@ const winningNumberPick2Schema = mongoose.Schema({
 });
 
 const winningNumberPick3Schema = mongoose.Schema({
-  _id: mongoose.Schema.Types.ObjectId,
   drawDate: { type: String, required: true },
   winningNumber: { type: String, required: true },
   fireball: { type: String, required: true },
   midDay: { type: Boolean },
   evening: { type: Boolean }
 });
+
+const winningNumberPick4Schema = mongoose.Schema({
+  drawDate: { type: String, required: true },
+  winningNumber: { type: String, required: true },
+  fireball: { type: String, required: true },
+  midDay: { type: Boolean },
+  evening: { type: Boolean }
+});
+
+const winningNumberPick5Schema = mongoose.Schema({
+  drawDate: { type: String, required: true },
+  winningNumber: { type: String, required: true },
+  fireball: { type: String, required: true },
+  midDay: { type: Boolean },
+  evening: { type: Boolean }
+});
+
+///FL lotto  schema
+const FL_Lotto = new mongoose.Schema({
+  drawDate: { type: Date, required: true },
+  numbers: [Number],
+  implementationYear: Number
+});
+
 
 
 ///mega millions schema
@@ -44,6 +66,9 @@ const WinningPowerballSchema = new mongoose.Schema({
 
 const WinningPick2 = mongoose.model('WinningPick2', winningNumberPick2Schema);
 const WinningPick3 = mongoose.model('WinningPick3', winningNumberPick3Schema);
+const WinningPick4 = mongoose.model('WinningPick4', winningNumberPick4Schema);
+const WinningPick5 = mongoose.model('WinningPick5', winningNumberPick5Schema);
+const WinningFL_Lotto = mongoose.model('WinningFL_Lotto', FL_Lotto);
 
 const WinningMegaMillions = mongoose.model('WinningMegaMillions', megaMillionsSchema);
 const WinningPowerball = mongoose.model('WinningPowerball', WinningPowerballSchema);
@@ -51,6 +76,9 @@ const WinningPowerball = mongoose.model('WinningPowerball', WinningPowerballSche
 module.exports = {
   WinningPick2,
   WinningPick3,
+  WinningPick4,
+  WinningPick5,
+  WinningFL_Lotto,
   WinningMegaMillions,
   WinningPowerball
 };

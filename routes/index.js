@@ -1,7 +1,7 @@
 const express = require('express')
 // const LOCALDB = require('process.env.LOCALDB')
 const router = express.Router();
-const { WinningPick2, WinningPick3, WinningMegaMillions, WinningPowerball } = require('../models/winningNumbersModel')
+const { WinningPick2, WinningPick3, WinningPick4, WinningPick5, WinningMegaMillions, WinningPowerball, WinningFL_Lotto } = require('../models/winningNumbersModel')
 const assert = require('assert');
 const url = "mongodb://localhost:3000/api/winning";
 const MongoClient = require('mongodb').MongoClient;
@@ -107,6 +107,33 @@ router.get('/FLPick3', (req, res, next) => {
     .catch(err => {
       res.status(500).json({ error: err });
     });
+});
+
+router.get('/pick4', async (req, res) => {
+  try {
+    const results = await WinningPick4.find().sort({ drawDate: -1 });
+    res.status(200).json(results);
+  } catch (err) {
+    res.status(500).json({ message: 'Failed to fetch Pick 4 results', error: err });
+  }
+});
+
+router.get('/pick5', async (req, res) => {
+  try {
+    const results = await WinningPick5.find().sort({ drawDate: -1 });
+    res.status(200).json(results);
+  } catch (err) {
+    res.status(500).json({ message: 'Failed to fetch Pick 5 results', error: err });
+  }
+});
+
+router.get('/florida-lotto', async (req, res) => {
+  try {
+    const results = await WinningFL_Lotto.find().sort({ drawDate: -1 });
+    res.status(200).json(results);
+  } catch (err) {
+    res.status(500).json({ message: 'Failed to fetch Winning Florida Lotto results', error: err });
+  }
 });
 
 

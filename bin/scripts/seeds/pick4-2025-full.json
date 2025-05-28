@@ -1,0 +1,814 @@
+[
+  {
+    "drawDate": "2025-03-08T00:00:00Z",
+    "winningNumber": "5574",
+    "fireball": "3",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2024-12-19T00:00:00Z",
+    "winningNumber": "9439",
+    "fireball": "9",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2024-09-30T00:00:00Z",
+    "winningNumber": "0384",
+    "fireball": "0",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2024-07-13T00:00:00Z",
+    "winningNumber": "6047",
+    "fireball": "8",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2024-04-24T00:00:00Z",
+    "winningNumber": "8226",
+    "fireball": "7",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2024-02-05T00:00:00Z",
+    "winningNumber": "0719",
+    "fireball": "2",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2023-11-17T00:00:00Z",
+    "winningNumber": "2596",
+    "fireball": "4",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2023-08-30T00:00:00Z",
+    "winningNumber": "1214",
+    "fireball": "8",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2023-06-11T00:00:00Z",
+    "winningNumber": "2237",
+    "fireball": "6",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2023-03-24T00:00:00Z",
+    "winningNumber": "3914",
+    "fireball": "3",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2023-01-03T00:00:00Z",
+    "winningNumber": "9168",
+    "fireball": "0",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2022-10-16T00:00:00Z",
+    "winningNumber": "6688",
+    "fireball": "4",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2022-07-28T00:00:00Z",
+    "winningNumber": "8663",
+    "fireball": "1",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2022-05-10T00:00:00Z",
+    "winningNumber": "8431",
+    "fireball": "5",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2022-02-19T00:00:00Z",
+    "winningNumber": "0330",
+    "fireball": "8",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2021-12-02T00:00:00Z",
+    "winningNumber": "7837",
+    "fireball": "0",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2021-09-13T00:00:00Z",
+    "winningNumber": "0133",
+    "fireball": "4",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2021-06-26T00:00:00Z",
+    "winningNumber": "8333",
+    "fireball": "1",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2021-04-07T00:00:00Z",
+    "winningNumber": "3969",
+    "fireball": "6",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2021-01-18T00:00:00Z",
+    "winningNumber": "5574",
+    "fireball": "3",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2020-10-30T00:00:00Z",
+    "winningNumber": "0206",
+    "fireball": "9",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2020-08-12T00:00:00Z",
+    "winningNumber": "8327",
+    "fireball": "9",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2020-05-24T00:00:00Z",
+    "winningNumber": "3965",
+    "fireball": "8",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2020-03-06T00:00:00Z",
+    "winningNumber": "4638",
+    "fireball": "6",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2019-12-17T00:00:00Z",
+    "winningNumber": "3867",
+    "fireball": "8",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2019-09-29T00:00:00Z",
+    "winningNumber": "3179",
+    "fireball": "4",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2019-07-11T00:00:00Z",
+    "winningNumber": "4626",
+    "fireball": "0",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2019-04-23T00:00:00Z",
+    "winningNumber": "4398",
+    "fireball": "4",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2019-02-02T00:00:00Z",
+    "winningNumber": "4439",
+    "fireball": "8",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2018-11-15T00:00:00Z",
+    "winningNumber": "2456",
+    "fireball": "7",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2018-08-27T00:00:00Z",
+    "winningNumber": "1958",
+    "fireball": "8",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2018-06-09T00:00:00Z",
+    "winningNumber": "2582",
+    "fireball": "3",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2018-03-21T00:00:00Z",
+    "winningNumber": "9425",
+    "fireball": "9",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2018-01-01T00:00:00Z",
+    "winningNumber": "7372",
+    "fireball": "1",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2017-10-13T00:00:00Z",
+    "winningNumber": "0705",
+    "fireball": "3",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2017-07-26T00:00:00Z",
+    "winningNumber": "2060",
+    "fireball": "3",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2017-05-07T00:00:00Z",
+    "winningNumber": "6237",
+    "fireball": "5",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2017-02-17T00:00:00Z",
+    "winningNumber": "1716",
+    "fireball": "7",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2016-11-29T00:00:00Z",
+    "winningNumber": "5575",
+    "fireball": "0",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2016-09-11T00:00:00Z",
+    "winningNumber": "0984",
+    "fireball": "6",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2016-06-23T00:00:00Z",
+    "winningNumber": "6489",
+    "fireball": "0",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2016-04-05T00:00:00Z",
+    "winningNumber": "1353",
+    "fireball": "1",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2016-01-16T00:00:00Z",
+    "winningNumber": "6427",
+    "fireball": "2",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2015-10-29T00:00:00Z",
+    "winningNumber": "6911",
+    "fireball": "4",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2015-08-10T00:00:00Z",
+    "winningNumber": "2998",
+    "fireball": "4",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2015-05-23T00:00:00Z",
+    "winningNumber": "6629",
+    "fireball": "1",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2015-03-04T00:00:00Z",
+    "winningNumber": "2102",
+    "fireball": "8",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2014-12-15T00:00:00Z",
+    "winningNumber": "2529",
+    "fireball": "4",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2014-09-26T00:00:00Z",
+    "winningNumber": "5112",
+    "fireball": "4",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2014-07-09T00:00:00Z",
+    "winningNumber": "0709",
+    "fireball": "3",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2014-04-20T00:00:00Z",
+    "winningNumber": "6598",
+    "fireball": "7",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2014-01-31T00:00:00Z",
+    "winningNumber": "7921",
+    "fireball": "2",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2013-11-12T00:00:00Z",
+    "winningNumber": "7019",
+    "fireball": "4",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2013-08-25T00:00:00Z",
+    "winningNumber": "0673",
+    "fireball": "8",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2013-06-06T00:00:00Z",
+    "winningNumber": "7560",
+    "fireball": "7",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2013-03-19T00:00:00Z",
+    "winningNumber": "0503",
+    "fireball": "8",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2012-12-29T00:00:00Z",
+    "winningNumber": "6690",
+    "fireball": "4",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2012-10-11T00:00:00Z",
+    "winningNumber": "8904",
+    "fireball": "3",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2012-07-23T00:00:00Z",
+    "winningNumber": "8773",
+    "fireball": "5",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2012-05-05T00:00:00Z",
+    "winningNumber": "0222",
+    "fireball": "8",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2012-02-15T00:00:00Z",
+    "winningNumber": "4921",
+    "fireball": "7",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2011-11-28T00:00:00Z",
+    "winningNumber": "8598",
+    "fireball": "6",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2011-09-09T00:00:00Z",
+    "winningNumber": "3846",
+    "fireball": "0",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2011-06-22T00:00:00Z",
+    "winningNumber": "4000",
+    "fireball": "7",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2011-04-03T00:00:00Z",
+    "winningNumber": "9715",
+    "fireball": "0",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2011-01-14T00:00:00Z",
+    "winningNumber": "1865",
+    "fireball": "5",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2010-10-26T00:00:00Z",
+    "winningNumber": "2308",
+    "fireball": "4",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2010-08-08T00:00:00Z",
+    "winningNumber": "1845",
+    "fireball": "9",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2010-05-20T00:00:00Z",
+    "winningNumber": "0123",
+    "fireball": "0",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2010-03-02T00:00:00Z",
+    "winningNumber": "1000",
+    "fireball": "3",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2009-12-12T00:00:00Z",
+    "winningNumber": "8578",
+    "fireball": "8",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2009-09-24T00:00:00Z",
+    "winningNumber": "6351",
+    "fireball": "9",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2009-07-06T00:00:00Z",
+    "winningNumber": "4219",
+    "fireball": "9",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2009-04-18T00:00:00Z",
+    "winningNumber": "5643",
+    "fireball": "9",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2009-01-28T00:00:00Z",
+    "winningNumber": "8585",
+    "fireball": "5",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2008-11-10T00:00:00Z",
+    "winningNumber": "5346",
+    "fireball": "0",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2008-08-22T00:00:00Z",
+    "winningNumber": "5611",
+    "fireball": "1",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2008-06-04T00:00:00Z",
+    "winningNumber": "9085",
+    "fireball": "4",
+    "midDay": true,
+    "evening": false
+  },
+  {
+    "drawDate": "2008-01-13T00:00:00Z",
+    "winningNumber": "0936",
+    "fireball": "0",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2007-08-07T00:00:00Z",
+    "winningNumber": "2625",
+    "fireball": "4",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2007-03-01T00:00:00Z",
+    "winningNumber": "0035",
+    "fireball": "6",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2006-09-23T00:00:00Z",
+    "winningNumber": "6078",
+    "fireball": "5",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2006-04-17T00:00:00Z",
+    "winningNumber": "7944",
+    "fireball": "8",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2005-11-09T00:00:00Z",
+    "winningNumber": "8457",
+    "fireball": "2",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2005-06-03T00:00:00Z",
+    "winningNumber": "0196",
+    "fireball": "5",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2004-12-26T00:00:00Z",
+    "winningNumber": "6950",
+    "fireball": "9",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2004-07-20T00:00:00Z",
+    "winningNumber": "1990",
+    "fireball": "0",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2004-02-12T00:00:00Z",
+    "winningNumber": "7440",
+    "fireball": "0",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2003-09-06T00:00:00Z",
+    "winningNumber": "0620",
+    "fireball": "9",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2003-03-31T00:00:00Z",
+    "winningNumber": "7596",
+    "fireball": "9",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2002-10-23T00:00:00Z",
+    "winningNumber": "8844",
+    "fireball": "6",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2002-05-17T00:00:00Z",
+    "winningNumber": "4479",
+    "fireball": "9",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2001-12-09T00:00:00Z",
+    "winningNumber": "9784",
+    "fireball": "2",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2001-07-03T00:00:00Z",
+    "winningNumber": "7893",
+    "fireball": "6",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2001-01-25T00:00:00Z",
+    "winningNumber": "7901",
+    "fireball": "1",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2000-08-19T00:00:00Z",
+    "winningNumber": "8346",
+    "fireball": "9",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "2000-03-13T00:00:00Z",
+    "winningNumber": "8129",
+    "fireball": "2",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "1999-10-06T00:00:00Z",
+    "winningNumber": "3024",
+    "fireball": "2",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "1999-04-30T00:00:00Z",
+    "winningNumber": "1032",
+    "fireball": "4",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "1998-11-22T00:00:00Z",
+    "winningNumber": "1054",
+    "fireball": "2",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "1998-06-16T00:00:00Z",
+    "winningNumber": "3482",
+    "fireball": "6",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "1998-01-08T00:00:00Z",
+    "winningNumber": "7846",
+    "fireball": "7",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "1997-08-02T00:00:00Z",
+    "winningNumber": "1292",
+    "fireball": "8",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "1997-02-24T00:00:00Z",
+    "winningNumber": "4510",
+    "fireball": "2",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "1996-09-18T00:00:00Z",
+    "winningNumber": "8573",
+    "fireball": "9",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "1996-04-12T00:00:00Z",
+    "winningNumber": "9222",
+    "fireball": "6",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "1995-11-05T00:00:00Z",
+    "winningNumber": "6110",
+    "fireball": "5",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "1995-05-30T00:00:00Z",
+    "winningNumber": "7006",
+    "fireball": "2",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "1994-12-22T00:00:00Z",
+    "winningNumber": "9257",
+    "fireball": "9",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "1994-07-16T00:00:00Z",
+    "winningNumber": "0509",
+    "fireball": "4",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "1994-02-07T00:00:00Z",
+    "winningNumber": "5327",
+    "fireball": "3",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "1993-09-01T00:00:00Z",
+    "winningNumber": "4395",
+    "fireball": "4",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "1993-03-26T00:00:00Z",
+    "winningNumber": "0241",
+    "fireball": "7",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "1992-10-18T00:00:00Z",
+    "winningNumber": "1043",
+    "fireball": "3",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "1992-05-12T00:00:00Z",
+    "winningNumber": "1172",
+    "fireball": "7",
+    "midDay": false,
+    "evening": true
+  },
+  {
+    "drawDate": "1991-12-04T00:00:00Z",
+    "winningNumber": "9133",
+    "fireball": "6",
+    "midDay": false,
+    "evening": true
+  }
+]
