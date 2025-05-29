@@ -1,7 +1,16 @@
 const express = require('express')
 // const LOCALDB = require('process.env.LOCALDB')
 const router = express.Router();
-const { WinningPick2, WinningPick3, WinningPick4, WinningPick5, WinningMegaMillions, WinningPowerball, WinningFL_Lotto } = require('../models/winningNumbersModel')
+const { WinningPick2,
+   WinningPick3,
+    WinningPick4,
+     WinningPick5,
+      WinningMegaMillions,
+      WinningPowerball,
+       WinningFL_Lotto,
+        WinningCashForLife,
+        WinningFL_Fantasy5
+       } = require('../models/winningNumbersModel')
 const assert = require('assert');
 const url = "mongodb://localhost:3000/api/winning";
 const MongoClient = require('mongodb').MongoClient;
@@ -133,6 +142,24 @@ router.get('/florida-lotto', async (req, res) => {
     res.status(200).json(results);
   } catch (err) {
     res.status(500).json({ message: 'Failed to fetch Winning Florida Lotto results', error: err });
+  }
+});
+
+router.get('/fantasy5', async (req, res) => {
+  try {
+    const results = await WinningFL_Fantasy5.find().sort({ drawDate: -1 });
+    res.status(200).json(results);
+  } catch (err) {
+    res.status(500).json({ message: 'Failed to fetch Winning Fantasy Lotto results', error: err });
+  }
+});
+
+router.get('/cash-for-life', async (req, res) => {
+  try {
+    const results = await WinningCashForLife.find().sort({ drawDate: -1 });
+    res.status(200).json(results);
+  } catch (err) {
+    res.status(500).json({ message: 'Failed to fetch Winning Cash For Life Lotto results', error: err });
   }
 });
 

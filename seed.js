@@ -8,8 +8,10 @@ const {
   WinningPick4,
   WinningPick5,
   WinningFL_Lotto,
+  WinningCashForLife,
   WinningMegaMillions,
-  WinningPowerball
+  WinningPowerball,
+  WinningFL_Fantasy5
 } = require('./models/winningNumbersModel');
 
 // ----- Seed Files -----
@@ -27,6 +29,12 @@ const flPick5Seed = JSON.parse(fs.readFileSync(pick5Path, 'utf8'));
 
 const FL_Lotto_path = path.resolve(__dirname, 'bin/scripts/seeds/florida-lotto-seed.json');
 const FL_Lotto_seed = JSON.parse(fs.readFileSync(FL_Lotto_path, 'utf8'));
+
+const Fantasy5_Path = path.resolve(__dirname, 'bin/scripts/seeds/fantasy5-seed.json');
+const Fantasy5_Seed = JSON.parse(fs.readFileSync(Fantasy5_Path, 'utf8'));
+
+const Cash_For_Life_Path = path.resolve(__dirname, 'bin/scripts/seeds/cash4life-seed.json');
+const Cash_For_Life_Seed = JSON.parse(fs.readFileSync(Cash_For_Life_Path, 'utf8'));
 
 const megaMillionsPath = path.resolve(__dirname, 'bin/scripts/seeds/megaMillions_seed_data.json');
 const megaMillionsSeed = JSON.parse(fs.readFileSync(megaMillionsPath, 'utf8'));
@@ -52,35 +60,38 @@ const powerballSeedData = JSON.parse(fs.readFileSync(powerballPath, 'utf8'));
     await WinningPick4.deleteMany({});
     await WinningPick5.deleteMany({});
     await WinningFL_Lotto.deleteMany({});
+    await WinningFL_Fantasy5.deleteMany({});
+    await WinningCashForLife.deleteMany({});
+    await WinningMegaMillions.deleteMany({});
+    await WinningPowerball.deleteMany({});
+
 
     const inserted2 = await WinningPick2.insertMany(flPick2Seed);
-    console.log(`🌱 Pick 2 seeded! ${inserted2.length} records`);
+    console.log(`🌱 Pick 2 winning numbers seeded! ${inserted2.length} records`);
 
     const inserted3 = await WinningPick3.insertMany(flPick3Seed);
-    console.log(`🌱 Pick 3 seeded! ${inserted3.length} records`);
+    console.log(`🌱 Pick 3 winning numbers seeded! ${inserted3.length} records`);
 
     const inserted4 = await WinningPick4.insertMany(flPick4Seed);
-    console.log(`🌱 Pick 4 seeded! ${inserted4.length} records`);
+    console.log(`🌱 Pick 4 winning numbers seeded! ${inserted4.length} records`);
 
     const inserted5 = await WinningPick5.insertMany(flPick5Seed);
-    console.log(`🌱 Pick 5 seeded! ${inserted5.length} records`);
+    console.log(`🌱 Pick 5 winning numbers seeded! ${inserted5.length} records`);
 
     const inserted_FL_Lotto = await WinningFL_Lotto.insertMany(FL_Lotto_seed);
-    console.log(`🌱 FL Lotto seeded! ${inserted_FL_Lotto.length} records`);
+    console.log(`🌱 FL Lotto winning numbers seeded! ${inserted_FL_Lotto.length} records`);
 
-    // Clear and seed Mega Millions
-    await WinningMegaMillions.deleteMany({});
-    console.log('🧼 Cleared Mega Millions collection');
+    const inserted_Fantasy5 = await WinningFL_Fantasy5.insertMany(Fantasy5_Seed);
+    console.log(`🌱 FL Fantasy 5 winning numbers seeded! ${inserted_Fantasy5.length} records`);
+
+    const inserted_cash_for_life = await WinningCashForLife.insertMany(Cash_For_Life_Seed);
+    console.log(`🌱 Cash For life winning numbers seeded! ${inserted_cash_for_life.length} records`);
 
     const insertedMega = await WinningMegaMillions.insertMany(megaMillionsSeed);
-    console.log(`🌱 Mega Millions seeded! ${insertedMega.length} records`);
-
-    // Clear and seed Powerball
-    await WinningPowerball.deleteMany({});
-    console.log('🧼 Cleared Powerball collection');
+    console.log(`🌱 Mega Millions winning numbers seeded! ${insertedMega.length} records`);
 
     const insertedPowerball = await WinningPowerball.insertMany(powerballSeedData);
-    console.log(`🌱 Powerball seeded! ${insertedPowerball.length} records`);
+    console.log(`🌱 Powerball winning numbers seeded! ${insertedPowerball.length} records`);
 
     await mongoose.disconnect();
     console.log('🧞 Djinn disconnected. Seeding complete.');
