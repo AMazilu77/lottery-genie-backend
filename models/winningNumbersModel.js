@@ -45,6 +45,11 @@ const FL_Fantasy5 = new mongoose.Schema({
   numbers: { type: [Number], required: true }
 });
 
+const FL_Jackpot = new mongoose.Schema({
+  drawDate: { type: String, required: true },
+  numbers: { type: [Number], required: true }
+});
+
 ///FL lotto  schema
 const Cash4LifeSchema = new mongoose.Schema({
   drawDate: {
@@ -92,6 +97,7 @@ const WinningPick4 = mongoose.model('WinningPick4', winningNumberPick4Schema);
 const WinningPick5 = mongoose.model('WinningPick5', winningNumberPick5Schema);
 const WinningFL_Lotto = mongoose.model('WinningFL_Lotto', FL_Lotto);
 const WinningFL_Fantasy5 = mongoose.model('WinningFL_Fantasy5', FL_Fantasy5);
+const Winning_Jackpot = mongoose.model('Winning_Jackpot', FL_Jackpot);
 const WinningCashForLife = mongoose.model('WinningCashForLife', Cash4LifeSchema);
 
 const WinningMegaMillions = mongoose.model('WinningMegaMillions', megaMillionsSchema);
@@ -104,6 +110,7 @@ module.exports = {
   WinningPick5,
   WinningFL_Lotto,
   WinningFL_Fantasy5,
+  Winning_Jackpot,
   WinningCashForLife,
   WinningMegaMillions,
   WinningPowerball

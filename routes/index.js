@@ -9,7 +9,8 @@ const { WinningPick2,
       WinningPowerball,
        WinningFL_Lotto,
         WinningCashForLife,
-        WinningFL_Fantasy5
+        WinningFL_Fantasy5,
+        Winning_Jackpot
        } = require('../models/winningNumbersModel')
 const assert = require('assert');
 const url = "mongodb://localhost:3000/api/winning";
@@ -151,6 +152,15 @@ router.get('/fantasy5', async (req, res) => {
     res.status(200).json(results);
   } catch (err) {
     res.status(500).json({ message: 'Failed to fetch Winning Fantasy Lotto results', error: err });
+  }
+});
+
+router.get('/jackpot', async (req, res) => {
+  try {
+    const results = await Winning_Jackpot.find().sort({ drawDate: -1 });
+    res.status(200).json(results);
+  } catch (err) {
+    res.status(500).json({ message: 'Failed to fetch Winning Florida Jackpot Lotto results', error: err });
   }
 });
 

@@ -8,6 +8,7 @@ const {
   WinningPick4,
   WinningPick5,
   WinningFL_Lotto,
+  Winning_Jackpot,
   WinningCashForLife,
   WinningMegaMillions,
   WinningPowerball,
@@ -32,6 +33,9 @@ const FL_Lotto_seed = JSON.parse(fs.readFileSync(FL_Lotto_path, 'utf8'));
 
 const Fantasy5_Path = path.resolve(__dirname, 'bin/scripts/seeds/fantasy5-seed.json');
 const Fantasy5_Seed = JSON.parse(fs.readFileSync(Fantasy5_Path, 'utf8'));
+
+const Jackpot_Path = path.resolve(__dirname, 'bin/scripts/seeds/jackpot-triple-play-corrected.json');
+const Jackpot_Seed = JSON.parse(fs.readFileSync(Jackpot_Path, 'utf8'));
 
 const Cash_For_Life_Path = path.resolve(__dirname, 'bin/scripts/seeds/cash4life-seed.json');
 const Cash_For_Life_Seed = JSON.parse(fs.readFileSync(Cash_For_Life_Path, 'utf8'));
@@ -61,6 +65,7 @@ const powerballSeedData = JSON.parse(fs.readFileSync(powerballPath, 'utf8'));
     await WinningPick5.deleteMany({});
     await WinningFL_Lotto.deleteMany({});
     await WinningFL_Fantasy5.deleteMany({});
+    await Winning_Jackpot.deleteMany({});
     await WinningCashForLife.deleteMany({});
     await WinningMegaMillions.deleteMany({});
     await WinningPowerball.deleteMany({});
@@ -83,6 +88,9 @@ const powerballSeedData = JSON.parse(fs.readFileSync(powerballPath, 'utf8'));
 
     const inserted_Fantasy5 = await WinningFL_Fantasy5.insertMany(Fantasy5_Seed);
     console.log(`🌱 FL Fantasy 5 winning numbers seeded! ${inserted_Fantasy5.length} records`);
+
+    const inserted_jackpot = await Winning_Jackpot.insertMany(Jackpot_Seed);
+    console.log(`🌱 FL Jackpot winning numbers seeded! ${inserted_jackpot.length} records`);
 
     const inserted_cash_for_life = await WinningCashForLife.insertMany(Cash_For_Life_Seed);
     console.log(`🌱 Cash For life winning numbers seeded! ${inserted_cash_for_life.length} records`);
